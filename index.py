@@ -1,6 +1,6 @@
 from flask import Flask
 helloworld = Flask(__name__)
-@helloworld.rout("/")
+@helloworld.route("/")
 def run():
     return "{\"message\":\"Hey there python\"}"
 
